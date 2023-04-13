@@ -1,0 +1,17 @@
+package javaclass;
+
+public class Class1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int 아무거나 = 18;
+		int 아무무 = ++아무거나;
+		System.out.println("++아무거나:"+아무무);
+		
+		아무거나 = 18;
+		아무무 = 아무거나++;
+		System.out.println("아무거나++:"+아무무);
+		
+	}
+
+}
