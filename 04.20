@@ -1,0 +1,18 @@
+package Class01;
+
+
+public class Class01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		for(int 숫자2=1; 숫자2<=10; 숫자2++) {
+			for(int 숫자=1; 숫자<=숫자2; 숫자++) {
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+	}
+
+}
