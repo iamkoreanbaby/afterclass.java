@@ -1,0 +1,25 @@
+package Class;
+
+import java.util.Scanner;
+
+public class Class01 {
+
+	public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+		
+		for(int num = sc.nextInt(); num>0;num/=10) {
+			System.out.println(num%10);
+			
+			
+		}
+				
+				
+				
+				
+				
+				
+				
+				
+	}
+
+}
