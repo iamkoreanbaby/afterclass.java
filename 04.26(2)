@@ -1,0 +1,29 @@
+package Class;
+
+import java.util.Scanner;
+
+public class Class02 {
+
+	public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
+        int sum = 0;
+        int im = 1;
+        while(true) {
+        	sum+=im;
+        	im++;
+        	if(im > num) {
+        		break;
+        	}
+        	
+        	
+        }
+				
+		System.out.println(sum);		
+				
+				
+				
+				
+	}
+
+}
