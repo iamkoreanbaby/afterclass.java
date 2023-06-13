@@ -1,0 +1,44 @@
+package Class;
+
+public class Class01 {
+
+	String name;
+	int hp;
+	int atk;
+	int def;
+	int level = 1;
+	
+	void 울기( ) {
+		
+	}
+	
+	void 레벨업() {
+		level++;
+	}
+	
+	
+	
+}
+
+----------------------------------------------------------------
+
+
+
+
+
+package Class;
+
+public class Game {
+	public static void main(String[] args) {
+		Class01 p1 = new Class01();
+		p1.name = "고라파덕";
+		p1.hp = 58;
+		
+		System.out.println(p1.name+"의 레벨은: "+p1.level);
+		System.out.println("레벨업!!!");
+		
+		p1.레벨업();
+		System.out.println(p1.name+"의 레벨은: "+p1.level);
+		
+	}
+}
