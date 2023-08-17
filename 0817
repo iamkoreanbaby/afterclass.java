@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>0817</title>
+</head>
+
+<body>
+    <div>
+        <h2>소제목</h2>
+        <p>
+            주현아 자리에 앉아라<br>
+            주현이는 브딱이다<br>
+            주현이는 괴물쥐 닮았다<br>
+            주현이는 <strong> 키가 존나작다</strong>
+        </p>
+    </div>
+
+    <div>
+        <h2>오늘 먹을 간식</h2>
+        <ol>
+            <li><a href="https://naver.com" target="_blank" title="힝 속았징">초코파이</a></li>
+            <li>펩시콜라</li>
+            <li>옥수수</li>
+        </ol>
+    </div>
+
+    <a href="https://naver.com">
+
+        <img src=" d3a67979c74b4b7981a5240934a6560d_780x0c.jpg" alt="" style="500px">
+
+    </a>
+
+    <form action="a.html">
+        아이디 : <input type="text" name="id">
+        <br>
+        비밀번호 : <input type="password" name="pw" <br>
+        <input type="submit" value="로그인">
+
+    </form>
+
+</body>
+
+</html>
